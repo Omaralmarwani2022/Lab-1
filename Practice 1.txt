@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	
+	int a;
+	int *pt;
+	a=5;
+	pt=&a;
+	cout<<"address of a ="<<&a<<endl;
+    cout<<"value of pt ="<<*pt<<endl;
+    
+}
+
